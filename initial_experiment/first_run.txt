@@ -1,0 +1,110 @@
+
+Testing stride: 1 bytes
+Run 1: 0.084878 ms
+Run 2: 0.089572 ms
+Run 3: 0.10167 ms
+Run 4: 0.118573 ms
+Run 5: 0.110323 ms
+Run 6: 0.14352 ms
+Run 7: 0.206527 ms
+Run 8: 0.156889 ms
+Run 9: 0.157001 ms
+Run 10: 0.157521 ms
+
+Testing stride: 2 bytes
+Run 1: 0.15424 ms
+Run 2: 0.162376 ms
+Run 3: 0.162721 ms
+Run 4: 0.17201 ms
+Run 5: 0.177106 ms
+Run 6: 0.183131 ms
+Run 7: 0.183609 ms
+Run 8: 0.192919 ms
+Run 9: 0.193061 ms
+Run 10: 0.207242 ms
+
+Testing stride: 4 bytes
+Run 1: 0.220921 ms
+Run 2: 0.236876 ms
+Run 3: 0.237642 ms
+Run 4: 0.236887 ms
+Run 5: 0.237112 ms
+Run 6: 0.255095 ms
+Run 7: 0.237427 ms
+Run 8: 0.23821 ms
+Run 9: 0.236797 ms
+Run 10: 0.254506 ms
+
+Testing stride: 8 bytes
+Run 1: 0.320428 ms
+Run 2: 0.306072 ms
+Run 3: 0.307126 ms
+Run 4: 0.287278 ms
+Run 5: 0.280217 ms
+Run 6: 0.315137 ms
+Run 7: 0.262822 ms
+Run 8: 0.231735 ms
+Run 9: 0.222516 ms
+Run 10: 0.207924 ms
+
+Testing stride: 16 bytes
+Run 1: 0.342645 ms
+Run 2: 0.279765 ms
+Run 3: 0.297919 ms
+Run 4: 0.28177 ms
+Run 5: 0.306055 ms
+Run 6: 0.291768 ms
+Run 7: 0.278985 ms
+Run 8: 0.25953 ms
+Run 9: 0.280397 ms
+Run 10: 0.28355 ms
+
+Testing stride: 32 bytes
+Run 1: 0.494093 ms
+Run 2: 0.517746 ms
+Run 3: 0.516241 ms
+Run 4: 0.469194 ms
+Run 5: 0.478479 ms
+Run 6: 0.451774 ms
+Run 7: 0.447807 ms
+Run 8: 0.446763 ms
+Run 9: 0.450947 ms
+Run 10: 0.467348 ms
+
+Testing stride: 64 bytes
+Run 1: 0.898389 ms
+Run 2: 0.941744 ms
+Run 3: 0.92486 ms
+Run 4: 0.911873 ms
+Run 5: 0.92149 ms
+Run 6: 0.963159 ms
+Run 7: 0.901132 ms
+Run 8: 1.02166 ms
+Run 9: 1.04019 ms
+Run 10: 1.09624 ms
+
+Testing stride: 128 bytes
+Run 1: 1.76501 ms
+Run 2: 1.921 ms
+Run 3: 2.01534 ms
+Run 4: 2.35155 ms
+Run 5: 2.00568 ms
+Run 6: 2.04255 ms
+Run 7: 1.89407 ms
+Run 8: 1.73642 ms
+Run 9: 1.62089 ms
+Run 10: 1.37186 ms
+
+Testing stride: 256 bytes
+Run 1: 1.66294 ms
+Run 2: 1.85259 ms
+Run 3: 2.00922 ms
+Run 4: 2.14263 ms
+Run 5: 2.53699 ms
+Run 6: 2.72673 ms
+Run 7: 2.86876 ms
+Run 8: 3.31206 ms
+Run 9: 3.59958 ms
+Run 10: 3.45864 ms
+
+Final checksum: 13733463360
