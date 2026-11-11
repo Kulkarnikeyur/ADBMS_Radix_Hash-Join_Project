@@ -1,0 +1,5 @@
+
+ Performance counter stats for 'true':
+
+         1,041,930      cycles                                                                
+           972,317      instructions                     #    0.93  insn per cycle            
