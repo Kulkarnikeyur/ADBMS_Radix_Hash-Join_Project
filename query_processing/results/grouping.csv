@@ -1,0 +1,9 @@
+N,Algorithm,Time_ms
+100000,Hash_Grouping,9.2853
+100000,Sort_Merge_Grouping,5.7895
+500000,Hash_Grouping,84.6900
+500000,Sort_Merge_Grouping,31.2648
+1000000,Hash_Grouping,150.4134
+1000000,Sort_Merge_Grouping,66.0504
+2000000,Hash_Grouping,345.4268
+2000000,Sort_Merge_Grouping,135.0864

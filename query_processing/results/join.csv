@@ -1,0 +1,9 @@
+N,Algorithm,Time_ms
+100000,Hash_Join,12.2685
+100000,Sort_Merge_Join,11.4840
+500000,Hash_Join,117.3539
+500000,Sort_Merge_Join,65.8129
+1000000,Hash_Join,205.5837
+1000000,Sort_Merge_Join,133.3377
+2000000,Hash_Join,487.3770
+2000000,Sort_Merge_Join,272.3700
