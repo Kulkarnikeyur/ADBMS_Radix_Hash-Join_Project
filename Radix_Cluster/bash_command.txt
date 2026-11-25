@@ -1,0 +1,12 @@
+for B in $(seq 1 24); do
+    for P in $(seq 1 4); do
+        if [ "$P" -le "$B" ]; then
+            echo "Running B=$B, P=$P"
+
+            perf stat -x, \
+                -e L1-dcache-load-misses,l2_rqsts.demand_data_rd_miss,dTLB-load-misses,dTLB-store-misses \
+                -o "perf_results/B${B}_P${P}.csv" \
+                -- ./radix_cluster "$B" "$P"
+        fi
+    done
+done
