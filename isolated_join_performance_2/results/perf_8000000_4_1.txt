@@ -1,8 +1,0 @@
-# started on Fri Nov 27 13:06:33 2026
-
-65081317,,l1d.replacement,721308659,66.00,,
-39396709,,l2_rqsts.demand_data_rd_miss,725316881,66.00,,
-47580159,,dtlb_load_misses.stlb_hit,725605325,66.00,,
-8050695,,dtlb_load_misses.miss_causes_a_walk,725583380,66.00,,
-5895087,,dtlb_store_misses.stlb_hit,724179160,66.00,,
-165611,,dtlb_store_misses.miss_causes_a_walk,720192883,66.00,,
