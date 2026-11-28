@@ -1,0 +1,18 @@
+set -u
+
+rm -rf results
+mkdir -p results
+mkdir -p results/perf_results
+
+for B in $(seq 1 25); do
+    for P in $(seq 1 4); do
+        if [ "$P" -le "$B" ]; then
+            echo "Running B=$B, P=$P"
+
+            perf stat -x, \
+                -e L1-dcache-load-misses,l2_rqsts.demand_data_rd_miss,dTLB-load-misses,dTLB-store-misses \
+                -o "results/perf_results/B${B}_P${P}.csv" \
+                -- ./radix_cluster "$B" "$P"
+        fi
+    done
+done
