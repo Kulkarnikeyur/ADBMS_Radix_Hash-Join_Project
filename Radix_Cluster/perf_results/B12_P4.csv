@@ -1,6 +1,0 @@
-# started on Fri Nov 27 14:06:11 2026
-
-59561446,,L1-dcache-load-misses,822750293,100.00,,
-1800559,,l2_rqsts.demand_data_rd_miss,822750293,100.00,,
-485892,,dTLB-load-misses,822750293,100.00,,
-724803,,dTLB-store-misses,822750293,100.00,,
