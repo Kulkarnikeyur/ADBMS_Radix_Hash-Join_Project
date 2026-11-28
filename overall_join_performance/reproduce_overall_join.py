@@ -25,7 +25,7 @@ OUT.mkdir(exist_ok=True)
 PREFERRED_CLUSTER_REFERENCE_N = None
 
 # Paper strategy parameters.
-INNER_TUPLE_BYTES = 12
+INNER_TUPLE_BYTES = 26
 TARGET_PHASH_CLUSTER = 256
 OPTIMAL_PHASH_CLUSTER = 200
 OPTIMAL_RADIX_CLUSTER = 4
@@ -34,7 +34,7 @@ TARGET_RADIX_CLUSTER = 8
 # Hardware parameters used to calculate the cache/TLB strategies.
 L1_BYTES = 32 * 1024
 L2_BYTES = 256 * 1024      # 256 KB per core
-TLB_ENTRIES = 64
+TLB_ENTRIES = 1536
 PAGE_BYTES = 4 * 1024
 
 # Populated after loading CSVs.
